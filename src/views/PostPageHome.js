@@ -30,7 +30,7 @@ export default function PostPageHome() {
     <>
       <Navbar variant="light" bg="light">
         <Container>
-          <Navbar.Brand href="/">Carlgram</Navbar.Brand>
+          <Navbar.Brand href="/">Tinkergram</Navbar.Brand>
           <Nav>
             <Nav.Link href="/add">New Post</Nav.Link>
             {user && <Nav.Link onClick={() => signOut(auth)}>🚪</Nav.Link>}
